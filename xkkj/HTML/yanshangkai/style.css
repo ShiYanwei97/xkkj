@@ -1,0 +1,82 @@
+.footer-max{
+    width:100%;
+    position:relative;
+     height: 200px;
+}
+#footer{
+        width:100%;
+        position:absolute;
+        top:0;
+        z-index: 10;
+    text-align: center;
+    background: #777;
+    height: 200px;
+    color: #fff;
+}
+#footer p{
+    line-height: 24px;
+    font-weight:900;
+}
+#footer a{
+    text-decoration: none;
+    color:#fff;
+    padding:0 20px;
+}
+#footer span{
+    line-height:20px;
+}
+.footer-x{
+    width:100%;
+    height:1px;
+    background:#999;
+    margin:30px 0;
+}
+.footer-zy{
+    margin-bottom: -150px;
+    text-align: center;
+    width:100%;
+    color:#fff;
+    transition:all 1s;
+    position: absolute;
+    bottom:194px;
+    z-index: 1;
+}
+.footer-z{
+    width:500px;
+    height:300px;
+    background:url(images/contact-hongkong.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display: inline-block;
+}
+.footer-y{
+    width:500px;
+    height:300px;
+    background:#000;
+    display: inline-block;
+    background:url(images/contact-shanghai.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.footer-hs{
+    width:461px;
+    height:280px;
+    background:#000000ba;
+    text-align:left;
+    padding:20px;
+}
+.footer-hs p{
+    padding: 10px 0;
+}
+.footer-bt{
+     font-size: 20px;
+}
+.footer-zy:hover{
+    bottom: 350px;
+}
+.floor{
+    width: 1000px;
+    height: 815px;
+    margin: 0 auto;
+}

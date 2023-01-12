@@ -1,0 +1,254 @@
+/*
+* @Author: Marte
+* @Date:   2018-03-06 12:22:29
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-03-08 15:33:40
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, u, i, dl, dt, dd, ol, ul, li, form, label, table, tbody, thead, tr, th, td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ol, ul { list-style: none; }
+img { border: 0;}
+body,html{
+    width:100%;
+
+    // overflow-x:hidden;
+}
+#sh_banner img{
+width: 100%;
+position: relative;
+}
+.sh_banner_text{
+color:#fff;
+font-size:41px;
+position: absolute;
+top:33%;
+left:67%;
+}
+#sh_text>p{
+    font-size:28px;
+    margin:3% 0 0 44%;
+}
+#sh_text>span{
+    font-size:18px;
+    margin:10% 0 0 43%;
+}
+
+#sh_ulli{
+    position:relative;
+    margin:2% 0 0 -5%;
+}
+#sh_ulli img{
+width:600px;
+height:370px;
+margin:55px 0 0 238px;
+}
+#sh_ulli .sh_ulli1{
+    width: 68%;
+    height:370px;
+    /* border:1px dashed black;*/
+    margin:-375px 0 0 600px;
+}
+.container ul{
+    position:absolute;
+    top:54px;
+    left:875px;
+    width:900px;
+}
+#sh_ulli>span{
+    position:absolute;
+    left:543px;
+    top:97px;
+    color:#fff;
+}
+#sh_family{
+    position: relative;
+    margin:352px 0;
+    padding:0 0;
+    width:100%;
+    // height:500px;
+    // overflow-x:hidden;
+}
+#sh_family p{
+    font-size: 28px;
+    margin:-12% 0 0 50%;
+    position:relative;
+}
+#sh_family .fy1{
+    font-size:18px;
+    color:black;
+    position:absolute;
+    left:51%;
+    top:8%;
+}
+#sh_family>.images1{
+// margin:5% 0 0 2%;
+width: 800px;
+height:449px;
+transition: all 0.6s;
+cursor: pointer;
+position:relative;
+left:1%;
+top:82px;
+}
+#video2{
+   position:absolute;
+   left:44%;
+   top:24%;
+}
+// #sh_family>.images1:hover{
+// transform: scale(0.8);
+// cursor: pointer;
+// }
+#sh_family>.images2{
+/*margin:-42% 0 0 59%;*/
+/*padding:0 0 18px 0;*/
+transition: all 0.6s;
+cursor: pointer;
+position:absolute;
+top:24%;
+left:60%;
+}
+// #sh_family>.images2:hover{
+// transform: scale(0.8);
+// cursor: pointer;
+// }
+#sh_family>span{
+    position:absolute;
+    left:1152px;
+    top:30px;
+    color:#fff;
+}
+#news p{
+font-size:28px;
+margin:-257px 0 0 50%;
+
+}
+#news span{
+margin:0 0 0 51%;
+}
+#sh_future p{
+  font-size:28px;
+  margin:0 0 0 50%;
+}
+#sh_future span{
+    display: block;
+font-size:18px;
+margin:0px 0 0 49%;
+padding:0px 0 36px 0;
+}
+#video1{
+width:100%;
+}
+#sh_fooer{
+    width:100%;
+    position:absolute;
+    // bottom:0;
+    text-align: center;
+    background: #777;
+    height: 200px;
+    color: #fff;
+    margin:500px 0 0 0;
+    // z-index:1000;
+
+}
+#sh_fooer p{
+    line-height: 80px;
+    font-weight:900;
+}
+#sh_fooer a{
+    text-decoration: none;
+    color:#fff;
+    padding:0 20px;
+}
+#sh_fooer span{
+    line-height:20px;
+}
+.footer-x{
+    width:100%;
+    height:1px;
+    background:#999;
+    margin:30px 0;
+}
+.footer-zy{
+    margin-bottom: -150px;
+    text-align: center;
+    width:100%;
+    position:absolute;
+    bottom:200px;
+    color:#fff;
+    transition:all 1s;
+}
+.footer-z{
+    width:500px;
+    height:300px;
+    background:url('../images/contact-hongkong.jpg');
+    background-size:100%;
+    background-repeat:no-repeat;
+    // background-position:center;
+    display: inline-block;
+    margin:0 0;
+    position: absolute;
+    left:26%;
+    top:100px;
+
+}
+.footer-y{
+    width:500px;
+    height:300px;
+    background:#000;
+    display: inline-block;
+    background:url('../images/contact-shanghai.jpg');
+    background-size:100%;
+    background-repeat:no-repeat;
+    margin:0 0;
+    position: absolute;
+    left:53%;
+    top:100px;
+}
+.footer-hs{
+    width:500px;
+    height:300px;
+    background:rgba(0, 0, 0, 0.61);
+    text-align:left;
+    padding:20px;
+}
+.footer-hs p{
+    padding: 10px 0;
+}
+.footer-bt{
+     font-size:20px;
+}
+#sh_adress{
+    width: 100%;
+    height:auto;
+    /*background:red;*/
+    position:relative;
+}
+#sh_adress p{
+font-size:28px;
+margin:53px 0 0 50%;
+}
+#sh_adress span{
+    font-size:18px;
+    margin:0 0 0 51%;
+}
+.banquan{
+    margin:0 auto;
+}
+ #video{
+    position:relative;
+ }
+ #video .video1{
+    margin:0 auto;
+ }
+#video img{
+position:absolute;
+left:846px;
+top:322px;
+display: block;
+cursor:pointer;
+}
+
